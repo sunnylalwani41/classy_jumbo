@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Home",
+        "route": "#/home"
+    },
+    {
+        "title": "Product",
+        "route": "#/product",
+        "submenu": [
+            {
+                "title": "Biscute",
+                "route": "#/product/biscute"
+            },
+            {
+                "title": "Chips",
+                "route": "#/product/chips"
+            }
+        ]
+    },
+    {
+        "title": "About",
+        "route": "#/about"
+    },
+    {
+        "title": "Contact",
+        "route": "#/contact"
+    }
+]

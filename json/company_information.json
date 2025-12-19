@@ -1,0 +1,12 @@
+{
+    "company_name": "Classy Jumbo",
+    "logo" : "/assets/image/sliding/Classy.jpeg",
+    "address" : "ELEMENTS MALL, 7th floor office no-725 DCM, AJMER ROAD, JAIPUR RAJSTHAN, PIN-302021",
+    "contact" : [
+        {
+            "country" : "india",
+            "phone" : "+91-8005569353",
+            "email" : "rajchelani1981@gmail.com"
+        }
+    ]
+}
