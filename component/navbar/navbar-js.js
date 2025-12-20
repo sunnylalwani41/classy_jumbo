@@ -3,6 +3,9 @@ const htmlCodeLink = "/component/navbar/navbar.html";
 const menuDataLink = "/json/menu.json";
 const companyInformationDataLink = "/json/company_information.json";
 
+//country
+let country = "in";
+
 //data store variable
 let menuData = null;
 let companyDataForLogo = null;
@@ -57,7 +60,6 @@ let loadMenuData = async () =>{
 
     let parts = e.route.replace("#/", "").split("/");
 
-    console.log(parts);
     if(e.submenu){
       li.classList.add("dropdown");
       
@@ -153,12 +155,14 @@ function loadPage(page, menu) {
   fetch(page)
     .then(res => res.text())
     .then(html => {
-      console.log("load")
       document.getElementById("content").innerHTML = html;
       setActive(menu);
       
       if (typeof initHeroSlider === "function") {
         initHeroSlider();
+      }
+      if(typeof companyInformationForPrivacyPolicy === "function"){
+        companyInformationForPrivacyPolicy();
       }
     });
 }
@@ -202,7 +206,6 @@ function closeMobileMenu() {
 
 // Highlight active menu
 function setActive(menu) {
-  console.log(menu);
   document.querySelectorAll(".nav-link").forEach(link => {
     link.classList.toggle("active", link.dataset.menu === menu);
   });

@@ -1,0 +1,37 @@
+.policy-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.policy-container {
+  max-width: 900px;
+}
+
+.policy-container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #d32f2f;
+}
+
+.policy-updated {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.policy-container h2 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+}
+
+.policy-container p,
+.policy-container li {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.policy-container ul {
+  padding-left: 20px;
+}
