@@ -1,265 +1,124 @@
 {
-    "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "bannerImage" : "/assets/image/sliding/jam/jam_desktop.jpg",
     "list": [
         {
-            "id" : "1",
-            "category": "Cookies",
-            "brand" : "Yummy",
+            "id" : "jm-1",
+            "category": "Jam",
+            "brand" : "Classy Jam",
             "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "sub_flavour" : "Orange Flavoured",
+            "description" : "Classy Orange Jam is made from the goodness of juicy, sun-ripened oranges, offering a perfect balance of sweetness and citrusy tang. Its smooth, rich texture and refreshing flavour make every bite vibrant and delicious. Ideal for spreading on bread, pairing with desserts, or adding a fruity twist to your favorite recipes, Classy Orange Jam brings a burst of freshness to every moment.",
+            "thumbnail" : "/assets/image/product/jam/orange.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/jam/orange.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["orange", "jam", "sweet"]
         },
         {
-            "id" : "2",
-            "category": "Crunch",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "jm-2",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Apricot",
+            "sub_flavour" : "Apricot Flavoured",
+            "description" : "Classy Apricot Jam is crafted from luscious, golden apricots to deliver a naturally sweet and mildly tangy taste. With its smooth texture and rich fruity aroma, it spreads effortlessly and adds a delightful touch to every bite. Perfect for breakfast breads, desserts, or creative recipes, Classy Apricot Jam brings the wholesome goodness of apricots to your table in a deliciously satisfying way.",
+            "thumbnail" : "/assets/image/product/jam/apricot.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/jam/apricot.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["apricot", "jam", "sweet"]
         },
         {
-            "id" : "3",
-            "category": "Cooky",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "jm-3",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Blueberry",
+            "sub_flavour" : "Blueberry Flavoured",
+            "description" : "Made from luscious, ripe blueberries, Classy Blueberry Jam offers a rich, fruity sweetness with a gentle tang. Its smooth texture and deep berry flavour make it perfect for spreading on toast, pairing with desserts, or adding a burst of indulgence to your everyday meals.",
+            "thumbnail" : "/assets/image/product/jam/blueberry.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/jam/blueberry.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["blueberry", "jam", "sweet"]
         },
         {
-            "id" : "4",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "jm-4",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Cherry",
+            "sub_flavour" : "Cherry Flavoured",
+            "description" : "Crafted from succulent, ripe cherries, Classy Cherry Jam delivers a delightful balance of sweetness and gentle tartness. Its rich colour, smooth texture, and vibrant fruity taste make it a perfect spread for breakfast, desserts, and delightful everyday treats.",
+            "thumbnail" : "/assets/image/product/jam/cherry.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/jam/cherry.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["cherry", "jam", "sweet"]
         },
         {
-            "id" : "5",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "jm-5",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Mango",
+            "sub_flavour" : "Mango Flavoured",
+            "description" : "Made from the richness of sun-ripened mangoes, Classy Mango Jam delivers a naturally sweet, tropical flavour with a smooth and luscious texture. Perfect for spreading on toast, pairing with desserts, or adding a fruity twist to your favorite snacks, it brings the true taste of mango in every spoonful.",
+            "thumbnail" : "/assets/image/product/jam/mango.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/jam/mango.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["mango", "jam", "sweet"]
+        },
+        {
+            "id" : "jm-6",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Mix Fruits",
+            "sub_flavour" : "Mix Fruits Flavoured",
+            "description" : "Made from a delightful blend of carefully selected fruits, Classy Mixed Fruit Jam offers a rich medley of natural sweetness and fruity freshness. Smooth, flavourful, and perfectly balanced, it’s an ideal spread for breakfast, desserts, and everyday indulgence.",
+            "thumbnail" : "/assets/image/product/jam/mix_fruits.png",
+            "images": [
+                "/assets/image/product/jam/mix_fruits.png"
+            ],
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["mix fruits", "jam", "sweet"]
+        },
+        {
+            "id" : "jm-7",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : ,
+            "sub_flavour" : "Mix Fruits Flavoured",
+            "description" : "Made from a delightful blend of carefully selected fruits, Classy Mixed Fruit Jam offers a rich medley of natural sweetness and fruity freshness. Smooth, flavourful, and perfectly balanced, it’s an ideal spread for breakfast, desserts, and everyday indulgence.",
+            "thumbnail" : "/assets/image/product/jam/mix_fruits.png",
+            "images": [
+                "/assets/image/product/jam/mix_fruits.png"
+            ],
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["mix fruits", "jam", "sweet"]
         }
     ]
 }

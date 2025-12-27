@@ -10,12 +10,18 @@
         "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg"
     },
     {
-        "img": "/assets/image/sliding/cookies/cookies_desktop.jpg"
+        "img": "/assets/image/sliding/cookies/cookies_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/cookies/cookies_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg"
     },
     {
-        "img": "/assets/image/sliding/jam/jam_desktop.jpg"
+        "img": "/assets/image/sliding/jam/jam_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/jam/jam_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg"
     },
     {
-        "img": "/assets/image/sliding/peanut butter/peanut butter_desktop.jpg"
+        "img": "/assets/image/sliding/peanut-butter/peanut-butter_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/peanut-butter/peanut-butter_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg"
     }
 ]
