@@ -1,5 +1,21 @@
 [
     {
-        "img": "/assets/image/sliding/landing page sliding-1.jpg"
+        "img": "/assets/image/sliding/nuddles/nuddles_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/nuddles/nuddles_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/nuddles/nuddles_mobile.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/chips/chips_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/chips/chips_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/cookies/cookies_desktop.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/jam/jam_desktop.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/peanut butter/peanut butter_desktop.jpg"
     }
 ]

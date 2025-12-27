@@ -9,14 +9,12 @@ let loadTheProductDetailData = async () => {
     list = data.list;
     
     data = filtersTheData(list);
-    renderProduct(data);
+    renderProduct(data[0]);
   }
 
 
     function renderProduct(p) {
-        console.log(JSON.stringify(p));
 
-        console.log(p.images);
       document.getElementById("productDetail").innerHTML = `
     <!-- IMAGE SECTION -->
     <div class="product-gallery">
@@ -35,9 +33,9 @@ let loadTheProductDetailData = async () => {
         Brand: ${p.brand} | Category: ${p.category}
       </div>
 
-      <div class="price">
+      <!-- <div class="price">
         ₹${p.price} <del>₹${p.mrp}</del>
-      </div>
+      </div> -->
 
       <p>${p.description}</p>
 

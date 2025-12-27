@@ -65,6 +65,7 @@ let menuPart = (data, menuKey) =>{
     if(m.submenu){
       li.className = "dropdown";
       a.className = "nav-link";
+      a.innerHTML += '<span class="caret">▾</span>';
 
       // empty the li tag
       li.innerHTML = "";
@@ -98,7 +99,7 @@ let loadMenuData = async () =>{
       
       let subMenuData = e.submenu;
       
-      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}">${e.title}</a>`;
+      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}">${e.title}<span class="caret">▾</span></a>`;
       li.append(menuPart(subMenuData, parts[0]));
     }
     else{
@@ -107,20 +108,20 @@ let loadMenuData = async () =>{
     navMenu.append(li);
   });
 
-  setupNav();
-  setupSubmenuToggle();
+  // setupNav();
+  // setupSubmenuToggle();
   handleRoute(); 
 }
 
-function setupSubmenuToggle() {
-  document.querySelectorAll(".submenu-toggle").forEach(toggle => {
-    toggle.addEventListener("click", e => {
-      e.stopPropagation();
-      const dropdown = toggle.closest(".dropdown");
-      dropdown.classList.toggle("open");
-    });
-  });
-}
+// function setupSubmenuToggle() {
+//   document.querySelectorAll(".submenu-toggle").forEach(toggle => {
+//     toggle.addEventListener("click", e => {
+//       e.stopPropagation();
+//       const dropdown = toggle.closest(".dropdown");
+//       dropdown.classList.toggle("open");
+//     });
+//   });
+// }
 
 let navbarHtmlCodeLoad = async () =>{
   // Load navbar
@@ -139,33 +140,6 @@ let navigateThePage = (parts) =>{
   let page = `/pages/${parts[0]}/${parts[0]}.html`;
 
   return page;
-}
-
-// Click handling
-function setupNav() {
-  document.querySelectorAll(".nav-link").forEach(link => {
-    link.addEventListener("click", function (e) {
-      const parentLi = this.closest(".dropdown");
-
-      // MOBILE + DROPDOWN PARENT
-      if (parentLi && window.innerWidth <= 768) {
-        e.preventDefault();
-        parentLi.classList.toggle("open");
-        return;
-      }
-
-      // NORMAL NAVIGATION
-      let href = this.getAttribute("href");
-      let parts = href.replace("#/", "").split("/");
-      let page = navigateThePage(parts);
-      const menu = this.dataset.menu;
-
-      console.log("page", page);
-
-      loadPage(page, menu);
-      closeMobileMenu();   // CLOSE MENU AFTER CLICK
-    });
-  });
 }
 
 
@@ -195,13 +169,18 @@ function loadPage(page, menu) {
       if(typeof loadTheProductDetailData == "function"){
         loadTheProductDetailData();
       }
+      if(typeof distributorMethod == "function"){
+        distributorMethod();
+        indiaMap();
+      }
     });
 }
 
 // Hash router
 async function handleRoute() {
+  console.log("run");
   const hash = location.hash || "#/home";
-
+console.log(hash);
   const parts = hash.replace("#/", "").split("/");
   let page = navigateThePage(parts);
   // const page = parts[0];        // buy / rent / home
@@ -220,15 +199,25 @@ function setupHamburger() {
     navMenu.classList.toggle("open");
   });
 
-  document.querySelectorAll(".dropdown > .nav-link").forEach(link => {
-    link.addEventListener("click", e => {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        link.parentElement.classList.toggle("open");
-      }
-    });
+  navMenu.addEventListener("click", e => {
+    // console.log(window.innerWidth);
+    const navItem = e.target.closest(".nav-item");
+    if (!navItem || window.innerWidth > 768) return;
+// console.log("nva");
+    const clickedLink = e.target.closest("a");
+// console.log(clickedLink);
+    // ✅ CLICK ON TEXT → NAVIGATE
+    if (clickedLink) {
+      closeMobileMenu();
+      return;
+    }
+
+    // ✅ CLICK ON EMPTY SPACE → TOGGLE SUBMENU
+    e.preventDefault();
+    navItem.classList.toggle("open");
   });
 }
+
 
 function closeMobileMenu() {
   document.getElementById("hamburger")?.classList.remove("active");
@@ -243,24 +232,25 @@ function setActive(menu) {
   document.querySelector(".navbar-logo").classList.remove("active");
 }
 
-document.addEventListener("click", e => {
-  if (
-    window.innerWidth <= 768 &&
-    e.target.matches(".submenu a")
-  ) {
-    closeMobileMenu();
-  }
-});
+// document.addEventListener("click", e => {
+//   if (
+//     window.innerWidth <= 768 &&
+//     e.target.matches(".submenu a")
+//   ) {
+//     console.log(e);
+//     closeMobileMenu();
+//   }
+// });
 
-document.querySelectorAll(".nav-item.dropdown > .nav-link")
-  .forEach(link => {
-    link.addEventListener("click", e => {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        link.parentElement.classList.toggle("open");
-      }
-    });
-  });
+// document.querySelectorAll(".nav-item.dropdown > .nav-link")
+//   .forEach(link => {
+//     link.addEventListener("click", e => {
+//       if (window.innerWidth <= 768) {
+//         e.preventDefault();
+//         link.parentElement.classList.toggle("open");
+//       }
+//     });
+//   });
 
 
 
@@ -270,4 +260,3 @@ window.addEventListener("DOMContentLoaded", handleRoute);
 
 //navbar data
 navbarHtmlCodeLoad();
-

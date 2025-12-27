@@ -11,21 +11,158 @@
         "submenu": [
             {
                 "title": "Biscute",
-                "route": "#/product/biscute",
+                "route": "#/product/biscute"
+            },
+            {
+                "title": "Cookies",
+                "route": "#/product/cookies",
                 "submenu" : [
                     {
-                        "title" : "Cream",
-                        "route" : "#/product/biscute/category-cream"
+                        "title" : "Butter Cookies",
+                        "route" : "#/product/cookies/flavour-butter"
                     },
                     {
-                        "title" : "Cookies",
-                        "route" : "#/product/biscute/category-cookies"
+                        "title" : "Almond Cookies",
+                        "route" : "#/product/cookies/flavour-almond"
+                    },
+                    {
+                        "title" : "Cashew Cookies",
+                        "route" : "#/product/cookies/flavour-cashew"
+                    },
+                    {
+                        "title" : "Cashew Pista Cookies",
+                        "route" : "#/product/cookies/flavour-cashew pista"
+                    },
+                    {
+                        "title" : "Pista Cookies",
+                        "route" : "#/product/cookies/flavour-pista"
+                    },
+                    {
+                        "title" : "Dry Fruit Cookies",
+                        "route" : "#/product/cookies/flavour-dry fruit"
+                    },
+                    {
+                        "title" : "Tutti Frutti Cookies",
+                        "route" : "#/product/cookies/flavour-tutti frutti"
+                    }
+                ]
+            },
+            {
+                "title": "Wafer",
+                "route": "#/product/wafer"
+            },
+            {
+                "title": "Jam",
+                "route": "#/product/jam",
+                "submenu": [
+                    {
+                        "title" : "Blueberry Jam",
+                        "route" : "#/product/jam/flavour-blueberry"
+                    },
+                    {
+                        "title" : "Pineapple Jam",
+                        "route" : "#/product/jam/flavour-pineapple"
+                    },
+                    {
+                        "title" : "Orange Jam",
+                        "route" : "#/product/jam/flavour-orange"
+                    },
+                    {
+                        "title" : "Apricot Jam",
+                        "route" : "#/product/jam/flavour-apricot"
+                    },
+                    {
+                        "title" : "Mix Fruits Jam",
+                        "route" : "#/product/jam/flavour-mix fruits"
+                    },
+                    {
+                        "title" : "Mango Jam",
+                        "route" : "#/product/jam/flavour-mango"
+                    },
+                    {
+                        "title" : "Cherry Jam",
+                        "route" : "#/product/jam/flavour-cherry"
+                    },
+                    {
+                        "title" : "Strawberry Jam",
+                        "route" : "#/product/jam/flavour-cherry"
+                    }
+                ]
+            },
+            {
+                "title": "Peanut Butter",
+                "route": "#/product/peanut_butter",
+                "submenu": [
+                    {
+                        "title" : "Creamy Peanut Butter",
+                        "route" : "#/product/peanut_butter/flavour-creamy"
+                    },
+                    {
+                        "title" : "Crunchy Peanut Butter",
+                        "route" : "#/product/peanut_butter/flavour-crunchy"
+                    }
+                ]
+            },
+            {
+                "title": "Nuddles",
+                "route": "#/product/nuddles",
+                "submenu": [
+                    {
+                        "title" : "Curry Nuddles",
+                        "route" : "#/product/nuddles/flavour-curry"
+                    },
+                    {
+                        "title" : "Masala Nuddles",
+                        "route" : "#/product/nuddles/flavour-masala"
+                    },
+                    {
+                        "title" : "Vegetable Nuddles",
+                        "route" : "#/product/nuddles/flavour-vegetable"
                     }
                 ]
             },
             {
                 "title": "Chips",
-                "route": "#/product/chips"
+                "route": "#/product/chips",
+                "submenu": [
+                    {
+                        "title" : "Tangy Tomato",
+                        "route" : "#/product/chips/flavour-tangy tomato"
+                    },
+                    {
+                        "title" : "Classic Salt",
+                        "route" : "#/product/chips/flavour-classic salt"
+                    },
+                    {
+                        "title" : "Hot & Spicy",
+                        "route" : "#/product/chips/flavour-hot and spicy"
+                    },
+                    {
+                        "title" : "Creamy Onion",
+                        "route" : "#/product/chips/flavour-creamy onion"
+                    },
+                    {
+                        "title" : "Chessy Cheddar",
+                        "route" : "#/product/chips/flavour-chessy cheddar"
+                    },
+                    {
+                        "title" : "Tangy BBQ",
+                        "route" : "#/product/chips/flavour-tangy bbq"
+                    },
+                    {
+                        "title" : "Chilli Lemon",
+                        "route" : "#/product/chips/flavour-chilli lemon"
+                    },
+                    {
+                        "title" : "Classic Masala",
+                        "route" : "#/product/chips/flavour-classic masala"
+                    },
+                    {
+                        "title" : "Peri Peri",
+                        "route" : "#/product/chips/flavour-peri peri"
+                    }
+                    
+                ]
             }
         ]
     },
@@ -41,6 +178,10 @@
         "title": "Contact",
         "type" : "contact",
         "route": "#/contact"
+    },
+    {
+        "title" : "Become A Distributor",
+        "route" : "#/distributor"
     },
     {
         "title" : "More",

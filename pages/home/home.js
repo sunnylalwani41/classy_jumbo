@@ -52,6 +52,8 @@ let loadSlidingHtmlData = (data) => {
     landingSlidingSelector.innerHTML += `
       <div class="slide">
         <picture>
+        ${e.mobile_img ? `<source media="(max-width: 768px)" srcset="${e.mobile_img}">` : ""}
+          ${e.tablet_img ? `<source media="(max-width: 1024px)" srcset="${e.tablet_img}">` : ""}
           <img src="${e.img}">
         </picture>
 
