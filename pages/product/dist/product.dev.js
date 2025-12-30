@@ -75,8 +75,8 @@ var filtersTheData = function filtersTheData(data) {
 
   for (var i = 2; i < parts.length; i++) {
     var filter = parts[i].split("-");
-    var key = filter[0];
-    var value = filter[1];
+    var key = decodeURIComponent(filter[0]);
+    var value = decodeURIComponent(filter[1]);
     if (key && value && data) data = filteredData(key, value, data);
   }
 

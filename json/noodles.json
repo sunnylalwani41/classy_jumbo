@@ -1,0 +1,75 @@
+{
+    "bannerImage" : {
+        "img": "/assets/image/sliding/nuddles/nuddles_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/nuddles/nuddles_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/nuddles/nuddles_mobile.jpg"
+    },
+    "packaging": [
+        {
+            "box_contains": "40",
+            "box_material" : "Carton",
+            "item_package_material" : "Pouch",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pouch",
+            "product_weight" : "65g",
+            "product_mrp" : "10",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
+    "list": [
+        {
+            "id" : "no1",
+            "category": "Noodles",
+            "brand" : "Classy Instant Noodles",
+            "flavour" : "Curry",
+            "sub_flavour" : "Curry Noodles",
+            "description" : "Infused with a rich blend of aromatic curry spices, Curry Noodles deliver a warm, comforting flavour with every slurp. Quick to prepare and full of bold taste, they’re the perfect choice for a satisfying meal or a spicy snack anytime.",
+            "thumbnail" : "/assets/image/product/nuddles/curry.png",
+            "images": [
+                "/assets/image/product/nuddles/curry.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "curry-noodles", "noodles", "curry-flavour", "instant-noodles", "spicy", "savory", "comfort-food", "quick-meal", "indian-spices", "easy-to-cook" ]
+        },
+        {
+            "id" : "no2",
+            "category": "Noodles",
+            "brand" : "Classy Instant Noodles",
+            "flavour" : "Masala",
+            "sub_flavour" : "Masala Noodles",
+            "description" : "Made with a classic blend of aromatic Indian masala spices, Masala Noodles deliver a rich, spicy, and satisfying flavour in every bite. Quick to cook and full of desi taste, they’re perfect for a comforting meal or a flavour-packed snack anytime.",
+            "thumbnail" : "/assets/image/product/nuddles/masala.png",
+            "images": [
+                "/assets/image/product/nuddles/masala.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "masala-noodles", "noodles", "masala", "instant-noodles", "spicy", "savory", "chatpata", "comfort-food", "quick-meal", "indian-flavour" ]
+        },
+        {
+            "id" : "no3",
+            "category": "Noodles",
+            "brand" : "Classy Instant Noodles",
+            "flavour" : "Vegetable",
+            "sub_flavour" : "Vegetable Noodles",
+            "description" : "Packed with the goodness of garden-fresh vegetables and mild, savoury seasoning, Vegetable Instant Noodles offer a light yet satisfying flavour in every bite. Quick to prepare and comforting to enjoy, they’re a wholesome choice for a tasty meal anytime.",
+            "thumbnail" : "/assets/image/product/nuddles/vegetable.png",
+            "images": [
+                "/assets/image/product/nuddles/vegetable.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "vegetable-noodles", "instant-noodles", "noodles", "veg", "vegetable-flavour", "savory", "mild-spice", "quick-meal", "comfort-food", "everyday-meal" ]
+        }
+    ]
+}

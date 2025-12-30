@@ -18,10 +18,6 @@
                 "route": "#/product/cookies",
                 "submenu" : [
                     {
-                        "title" : "Butter Cookies",
-                        "route" : "#/product/cookies/flavour-butter"
-                    },
-                    {
                         "title" : "Almond Cookies",
                         "route" : "#/product/cookies/flavour-almond"
                     },
@@ -104,20 +100,20 @@
                 ]
             },
             {
-                "title": "Nuddles",
-                "route": "#/product/nuddles",
+                "title": "Noodles",
+                "route": "#/product/noodles",
                 "submenu": [
                     {
-                        "title" : "Curry Nuddles",
-                        "route" : "#/product/nuddles/flavour-curry"
+                        "title" : "Curry Noodles",
+                        "route" : "#/product/noodles/flavour-curry"
                     },
                     {
-                        "title" : "Masala Nuddles",
-                        "route" : "#/product/nuddles/flavour-masala"
+                        "title" : "Masala Noodles",
+                        "route" : "#/product/noodles/flavour-masala"
                     },
                     {
-                        "title" : "Vegetable Nuddles",
-                        "route" : "#/product/nuddles/flavour-vegetable"
+                        "title" : "Vegetable Noodles",
+                        "route" : "#/product/noodles/flavour-vegetable"
                     }
                 ]
             },
@@ -126,42 +122,64 @@
                 "route": "#/product/chips",
                 "submenu": [
                     {
-                        "title" : "Tangy Tomato",
+                        "title" : "Tangy Tomato Chips",
                         "route" : "#/product/chips/flavour-tangy tomato"
                     },
                     {
-                        "title" : "Classic Salt",
+                        "title" : "Classic Salt Chips",
                         "route" : "#/product/chips/flavour-classic salt"
                     },
                     {
-                        "title" : "Hot & Spicy",
+                        "title" : "Hot & Spicy Chips",
                         "route" : "#/product/chips/flavour-hot and spicy"
                     },
                     {
-                        "title" : "Creamy Onion",
+                        "title" : "Creamy Onion Chips",
                         "route" : "#/product/chips/flavour-creamy onion"
                     },
                     {
-                        "title" : "Chessy Cheddar",
+                        "title" : "Chessy Cheddar Chips",
                         "route" : "#/product/chips/flavour-chessy cheddar"
                     },
                     {
-                        "title" : "Tangy BBQ",
+                        "title" : "Tangy BBQ Chips",
                         "route" : "#/product/chips/flavour-tangy bbq"
                     },
                     {
-                        "title" : "Chilli Lemon",
+                        "title" : "Chilli Lemon Chips",
                         "route" : "#/product/chips/flavour-chilli lemon"
                     },
                     {
-                        "title" : "Classic Masala",
+                        "title" : "Classic Masala Chips",
                         "route" : "#/product/chips/flavour-classic masala"
                     },
                     {
-                        "title" : "Peri Peri",
+                        "title" : "Peri Peri Chips",
                         "route" : "#/product/chips/flavour-peri peri"
                     }
                     
+                ]
+            },
+            {
+                "title": "Cereals",
+                "route": "#/product/cereals",
+                "submenu": [
+                    {
+                        "title" : "Mini Choco Balls",
+                        "route" : "#/product/cereals/category-mini choco balls"
+                    },
+                    {
+                        "title" : "Choco Flakes",
+                        "route" : "#/product/cereals/category-choco flakes"
+                    },
+                    {
+                        "title" : "Corn Flakes",
+                        "route" : "#/product/cereals/category-corn flakes"
+                    },
+                    {
+                        "title" : "Fruit Rings",
+                        "route" : "#/product/cereals/category-fruit rings"
+                    }
                 ]
             }
         ]

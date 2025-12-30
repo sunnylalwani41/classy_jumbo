@@ -11,13 +11,14 @@
             "item_package_material" : "Glass Jar",
             "item_package_contain" : 1,
             "item_count_type" : "Jar",
+            "product_weight" : "370g",
             "box_dimensions_cm": {
                 "length": 8,
                 "width": 8,
                 "height": 11
             },
             "box_weight_g": 520
-        }
+        }   
     ],
     "list": [
         {

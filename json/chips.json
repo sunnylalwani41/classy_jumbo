@@ -1,12 +1,19 @@
 {
-    "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "bannerImage" : {
+        "img": "/assets/image/sliding/chips/chips_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/chips/chips_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg"
+    },
     "packaging": [
         {
-            "box_contains": "120 * 16g (MRP 5 rupees), 60 * 32g (MRP 10 rupees)",
+            "box_contains": "120",
             "box_material" : "Carton",
-            "item_package_material" : "Glass Jar",
+            "item_package_material" : "Pouch",
             "item_package_contain" : 1,
             "item_count_type" : "Pouch",
+            "product_weight" : "16g",
+            "product_mrp" : "5",
+            "currency" : "INR",
             "box_dimensions_cm": {
                 "length": 8,
                 "width": 8,
@@ -15,11 +22,14 @@
             "box_weight_g": 520
         },
         {
-            "box_contains": "120 * 16g (MRP 5 rupees), 60 * 32g (MRP 10 rupees)",
+            "box_contains": "60",
             "box_material" : "Carton",
-            "item_package_material" : "Glass Jar",
+            "item_package_material" : "Pouch",
             "item_package_contain" : 1,
             "item_count_type" : "Pouch",
+            "product_weight" : "32g",
+            "product_mrp" : "10",
+            "currency" : "INR",
             "box_dimensions_cm": {
                 "length": 8,
                 "width": 8,
@@ -30,264 +40,148 @@
     ],
     "list": [
         {
-            "id" : "1",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "ch1",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Tangy BBQ",
+            "sub_flavour" : "Wavy Potato Chips",
+            "description" : "Infused with smoky BBQ goodness and a zesty tang, Tangy BBQ Flavoured Chips deliver a bold burst of flavour in every crunchy bite. Perfectly seasoned and irresistibly crisp, they’re the ideal snack for parties, movie nights, or anytime cravings.",
+            "thumbnail" : "/assets/image/product/chips/bbq.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/chips/bbq.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["tangy", "bbq", "barbecue", "chips", "snacks", "crispy", "smoky", "spicy", "party-snack", "savory"]
         },
         {
-            "id" : "2",
-            "category": "Crunch",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "ch2",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Cheesy Cheddar",
+            "sub_flavour" : "Cheese Flavored Potato Chips",
+            "description" : "Loaded with rich cheddar cheese flavour, Cheesy Cheddar Flavoured Chips offer a smooth, creamy taste with every crunchy bite. Perfectly seasoned and irresistibly crispy, they’re the ultimate snack for cheese lovers anytime, anywhere.",
+            "thumbnail" : "/assets/image/product/chips/cheesy_cheddar.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/chips/cheesy_cheddar.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["cheesy", "cheddar", "cheese", "chips", "snacks", "crispy", "creamy", "savory", "party-snack", "comfort-food"]
         },
         {
-            "id" : "3",
-            "category": "Cooky",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "ch3",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Chilli Lemon",
+            "sub_flavour" : "Spicy Potato Chips",
+            "description" : "A perfect balance of fiery chilli heat and refreshing lemon zest, Chilli Lemon Flavoured Chips deliver a bold, tangy kick in every crunchy bite. Light, zesty, and irresistibly crisp, they’re the ideal snack for those who love a punch of flavour with a refreshing twist.",
+            "thumbnail" : "/assets/image/product/chips/chilli_lemon.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/chips/chilli_lemon.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["chilli", "lemon", "chilli-lemon", "chips", "snacks", "tangy", "spicy", "zesty", "crispy", "chatpata"]
         },
         {
-            "id" : "4",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "ch4",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Classic Masala",
+            "sub_flavour" : "Spicy Potato Chips",
+            "description" : "Crafted with a traditional blend of aromatic Indian spices, Classic Masala Flavoured Chips deliver a bold, savoury taste with just the right hint of heat. Crispy, flavour-packed, and irresistibly satisfying, they’re the perfect snack for anytime cravings.",
+            "thumbnail" : "/assets/image/product/chips/classic_masala.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/chips/classic_masala.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["masala", "classic-masala", "indian-spices", "chips", "snacks", "spicy", "savory", "crispy", "chatpata", "traditional"]
         },
         {
-            "id" : "5",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "ch5",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Classic Salt",
+            "sub_flavour" : "Thin Potato Chips",
+            "description" : "Simple, timeless, and perfectly seasoned, Classic Salted Chips bring out the natural taste of crispy potatoes with a touch of salt. Light, crunchy, and irresistibly satisfying, they’re the go-to snack for every moment.",
+            "thumbnail" : "/assets/image/product/chips/classic_salt.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/chips/classic_salt.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["salted", "classic-salt", "original", "chips", "snacks", "crispy", "light", "savory", "everyday-snack","timeless" ]
+        },
+        {
+            "id" : "ch6",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Creamy Onion",
+            "sub_flavour" : "Cheese Flavored Potato Chips",
+            "description" : "Rich, smooth, and perfectly seasoned, Creamy Onion Flavoured Chips combine the sweetness of onion with a velvety creamy finish. Crispy and full of flavour, they offer a deliciously comforting snack experience in every bite.",
+            "thumbnail" : "/assets/image/product/chips/creamy_onion.png",
+            "images": [
+                "/assets/image/product/chips/creamy_onion.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["creamy-onion", "onion", "creamy", "chips", "snacks", "savory", "crispy", "smooth-flavour", "comfort-snack", "classic"]
+        },
+        {
+            "id" : "ch7",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Hot and Spicy",
+            "sub_flavour" : "Spicy Potato Chips",
+            "description" : "Packed with intense spice and a fiery kick, Hot & Spicy Flavoured Chips deliver a powerful burst of heat with every crunchy bite. Bold, flavourful, and irresistibly crisp, they’re made for those who love their snacks hot and full of attitude.",
+            "thumbnail" : "/assets/image/product/chips/hot_spicy.png",
+            "images": [
+                "/assets/image/product/chips/hot_spicy.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["hot-and-spicy", "spicy", "fiery", "chips", "snacks", "crispy", "bold-flavour", "heat", "chilli", "party-snack"]
+        },
+        {
+            "id" : "ch8",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Peri Peri",
+            "sub_flavour" : "Spicy Potato Chips",
+            "description" : "Inspired by the fiery flavours of peri peri spices, Peri Peri Flavoured Chips deliver a perfect blend of heat, tang, and bold seasoning in every crunchy bite. Intensely flavoured and irresistibly crisp, they’re made for spice lovers who crave a punchy snack experience.",
+            "thumbnail" : "/assets/image/product/chips/peri_peri.png",
+            "images": [
+                "/assets/image/product/chips/peri_peri.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["peri-peri", "spicy", "fiery", "chips", "snacks", "crispy", "tangy", "bold-flavour", "chilli", "party-snack" ]
+        },
+        {
+            "id" : "ch9",
+            "category": "Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Tangy Tomato",
+            "sub_flavour" : "Wavy Potato Chips",
+            "description" : "Bursting with the tangy goodness of ripe tomatoes, Tangy Tomato Flavoured Chips offer a zesty, savoury taste with every crunchy bite. Perfectly seasoned and irresistibly crisp, they’re a refreshing twist on a classic snack favourite.",
+            "thumbnail" : "/assets/image/product/chips/tomato.png",
+            "images": [
+                "/assets/image/product/chips/tomato.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "tangy-tomato", "tomato", "tangy", "chips", "snacks", "crispy", "savory", "zesty", "classic-flavour", "everyday-snack"]
         }
     ]
 }

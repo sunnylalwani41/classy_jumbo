@@ -297,10 +297,10 @@ let loadTheProductDetailData = async () => {
         <div>
           <h3>Packaging Details</h3>
           <ul>
-            <li><strong>Contains:</strong> 1 ${e.item_package_material} of ${product.flavour} ${product.category}</li>
+            <li><strong>Contains:</strong> ${e.item_package_material} of ${product.flavour} ${product.category == product.flavour ? "" : product.category}</li>
             <li><strong>Packaging:</strong> ${e.item_package_material} with outer ${e.box_material}</li>
-            <li><strong>Carton Packaging:</strong> ${e.box_contains} ${e.item_count_type} × ${product.net_weight}</li>
-            <li><strong>Per Piece Weight:</strong> ${product.net_weight}</li>
+            <li><strong>Carton Packaging:</strong> ${e.box_contains} ${e.item_count_type} × ${e.product_weight} ${e.product_mrp ? `(${e.product_mrp} ₹ / ${e.item_count_type})` : "" }</li>
+            <li><strong>Per Piece Weight:</strong> ${e.product_weight}</li>
           </ul>
         </div>
       `).join("");
@@ -345,7 +345,6 @@ let loadTheProductDetailData = async () => {
         </div>
 
         <div class="specs">
-          <div><span>Net Weight</span><span>${product.net_weight}</span></div>
           <div><span>Shelf Life</span><span>${product.shelf_life_months} Months</span></div>
           <div><span>Country</span><span>${product.country_of_origin}</span></div>
         </div>

@@ -1,0 +1,88 @@
+{
+    "bannerImage" : {
+        
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Box",
+            "item_package_contain" : 1,
+            "item_count_type" : "Box",
+            "product_weight" : "350g",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
+    "list": [
+        {
+            "id" : "ce1",
+            "category": "Choco Flakes",
+            "brand" : "Classy Cereals",
+            "flavour" : "Choco Flakes",
+            "sub_flavour" : "Choco Flakes Cereals",
+            "description" : "Made with crispy corn flakes coated in rich chocolatey goodness, Choco Flakes Cereals offer a deliciously crunchy start to your day. Perfect with milk or enjoyed straight from the bowl, they bring fun, flavour, and energy to every breakfast.",
+            "thumbnail" : "/assets/image/product/cereals/choco flakes.png",
+            "images": [
+                "/assets/image/product/cereals/choco flakes.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "choco-flakes", "chocolate-cereal", "cereals", "breakfast", "crispy", "chocolatey", "kids-favorite", "energy-boost", "morning-meal", "snack-cereal" ]
+        },
+        {
+            "id" : "ce2",
+            "category": "Corn Flakes",
+            "brand" : "Classy Cereals",
+            "flavour" : "Corn Flakes",
+            "sub_flavour" : "Corn Flakes Cereals",
+            "description" : "Light, crispy, and made from golden corn, Corn Flakes offer a classic, wholesome start to your day. Delicious with milk or topped with fruits and nuts, they provide a simple and satisfying breakfast for the whole family.",
+            "thumbnail" : "/assets/image/product/cereals/corn flakes.png",
+            "images": [
+                "/assets/image/product/cereals/corn flakes.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "corn-flakes", "cereals", "breakfast", "crispy", "classic", "wholesome", "light", "everyday-breakfast", "family-friendly", "morning-meal" ]
+        },
+        {
+            "id" : "ce3",
+            "category": "Fruit Rings",
+            "brand" : "Classy Cereals",
+            "flavour" : "Fruit Rings",
+            "sub_flavour" : "Fruit Rings Cereals",
+            "description" : "Bursting with fruity flavours and colourful crunchy rings, Fruit Rings Cereals make every breakfast exciting and delicious. Enjoyed with milk or straight from the bowl, they bring a playful crunch and fruity goodness to start the day on a happy note.",
+            "thumbnail" : "/assets/image/product/cereals/fruit rings.png",
+            "images": [
+                "/assets/image/product/cereals/fruit rings.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "fruit-rings", "fruit-cereal", "cereals", "breakfast", "fruity", "colorful", "crispy", "kids-favorite", "fun-breakfast", "morning-meal" ]
+        },
+        {
+            "id" : "ce4",
+            "category": "Mini Choco Balls",
+            "brand" : "Classy Cereals",
+            "flavour" : "Mini Choco Balls",
+            "sub_flavour" : "Mini Choco Balls Cereals",
+            "description" : "Packed with rich chocolate flavour and a delightful crunchy texture, Mini Choco Balls make breakfast and snack time extra enjoyable. Delicious with milk or straight from the pack, they bring a burst of chocolatey fun to every bowl.",
+            "thumbnail" : "/assets/image/product/cereals/mini choco balls.png",
+            "images": [
+                "/assets/image/product/cereals/mini choco balls.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "mini-choco-balls", "chocolate-cereal", "cereals", "breakfast", "chocolatey", "crispy", "kids-favorite", "fun-snack", "energy-boost", "snack-cereal" ]
+        }
+    ]
+}

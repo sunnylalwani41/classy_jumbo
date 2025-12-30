@@ -1,265 +1,88 @@
 {
-    "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "bannerImage" : {
+        "img": "/assets/image/sliding/peanut-butter/peanut-butter_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/peanut-butter/peanut-butter_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg"
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "product_weight" : "340g",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        },
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "product_weight" : "500g",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        },
+        {
+            "box_contains": "6",
+            "box_material" : "Carton",
+            "item_package_material" : "Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "product_weight" : "1kg",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
     "list": [
         {
-            "id" : "1",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "pe1",
+            "category": "Peanut Butter",
+            "brand" : "Classy Peanut Butter",
+            "flavour" : "Creamy",
+            "sub_flavour" : "Creamy Peanut Butter",
+            "description" : "Smooth, rich, and irresistibly creamy, Creamy Peanut Butter is made from carefully roasted peanuts for a naturally nutty taste. Perfectly spreadable and full of wholesome flavour, it’s ideal for breakfast, snacks, or adding a delicious twist to your favourite recipes.",
+            "thumbnail" : "/assets/image/product/peanut butter/creamy.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/peanut butter/creamy.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": ["creamy-peanut-butter", "peanut-butter", "creamy", "nuts", "spread", "protein-rich", "smooth-texture", "healthy-snack", "breakfast", "everyday-use" ]
         },
         {
-            "id" : "2",
-            "category": "Crunch",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "pe2",
+            "category": "Peanut Butter",
+            "brand" : "Classy Peanut Butter",
+            "flavour" : "Crunchy",
+            "sub_flavour" : "Crunchy Peanut Butter",
+            "description" : "Packed with the goodness of roasted peanuts and delightful crunchy bits, Crunchy Peanut Butter delivers a bold, nutty flavour with a satisfying crunch in every bite. Perfect for spreading, dipping, or enjoying straight from the jar, it’s a treat for true peanut lovers.",
+            "thumbnail" : "/assets/image/product/peanut butter/crunchy.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/peanut butter/crunchy.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
-        },
-        {
-            "id" : "3",
-            "category": "Cooky",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
-            "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
-            ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
-            "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
-        },
-        {
-            "id" : "4",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
-            "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
-            ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
-            "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
-        },
-        {
-            "id" : "5",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
-            "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
-            ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
-            "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "crunchy-peanut-butter", "peanut-butter", "crunchy", "nuts", "spread", "protein-rich", "nutty", "healthy-snack", "breakfast", "energy-food" ]
         }
     ]
 }

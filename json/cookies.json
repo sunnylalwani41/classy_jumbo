@@ -1,265 +1,122 @@
 {
-    "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "bannerImage" : {
+        "img": "/assets/image/sliding/cookies/cookies_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/cookies/cookies_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg"
+    },
+    "packaging": [
+        {
+            "box_contains": "24",
+            "box_material" : "Carton",
+            "item_package_material" : "Box",
+            "item_package_contain" : 1,
+            "item_count_type" : "Box",
+            "product_weight" : "300g",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
     "list": [
         {
-            "id" : "1",
+            "id" : "coo1",
             "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "brand" : "Classy Cookies",
+            "flavour" : "Almond",
+            "sub_flavour" : "Almond Cookies",
+            "description" : "Baked to perfection with crunchy almond bits, Almond Cookies offer a delightful balance of nutty richness and buttery sweetness. Crisp on the outside and full of flavour, they make a perfect companion for tea-time, snacking, or sharing moments of indulgence.",
+            "thumbnail" : "/assets/image/product/cookies/almond.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/cookies/almond.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "almond-cookies", "cookies", "almond", "nutty", "crispy", "baked", "sweet-snack", "tea-time", "premium-cookies", "everyday-indulgence" ]
         },
         {
-            "id" : "2",
-            "category": "Crunch",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
-            "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
-            ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
-            "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
-        },
-        {
-            "id" : "3",
-            "category": "Cooky",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
-            "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
-            ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
-            "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
-        },
-        {
-            "id" : "4",
+            "id" : "coo2",
             "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "brand" : "Classy Cookies",
+            "flavour" : "Cashew Pista",
+            "sub_flavour" : "Cashew Pista Cookies",
+            "description" : "Enriched with the richness of cashews and the delicate crunch of pista, Cashew Pista Cookies deliver a deliciously nutty flavour in every bite. Perfectly baked and irresistibly crisp, they’re an ideal treat for tea-time indulgence or anytime snacking.",
+            "thumbnail" : "/assets/image/product/cookies/cashew pista.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/cookies/cashew pista.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "cashew-pista-cookies", "cookies", "cashew", "pista", "nutty", "crispy", "baked", "premium-cookies", "tea-time", "sweet-snack" ]
         },
         {
-            "id" : "5",
+            "id" : "coo3",
             "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "brand" : "Classy Cookies",
+            "flavour" : "Cashew",
+            "sub_flavour" : "Cashew Cookies",
+            "description" : "Made with rich, crunchy cashews and baked to golden perfection, Cashew Cookies offer a smooth, nutty flavour with every bite. Crisp, buttery, and delightfully satisfying, they’re perfect for tea-time treats or anytime indulgence.",
+            "thumbnail" : "/assets/image/product/cookies/cashew.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/cookies/cashew.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "cashew-cookies", "cookies", "cashew", "nutty", "crispy", "baked", "sweet-snack", "tea-time", "premium-cookies", "everyday-indulgence" ]
+        },
+        {
+            "id" : "coo4",
+            "category": "Cookies",
+            "brand" : "Classy Cookies",
+            "flavour" : "Dry Fruit",
+            "sub_flavour" : "Dry Fruit Cookies",
+            "description" : "Loaded with a generous mix of premium dry fruits, Dry Fruit Cookies offer a rich, nutty taste and delightful crunch in every bite. Perfectly baked and full of wholesome goodness, they make a satisfying treat for tea-time or anytime indulgence.",
+            "thumbnail" : "/assets/image/product/cookies/dry fruit.png",
+            "images": [
+                "/assets/image/product/cookies/dry fruit.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "dry-fruit-cookies", "cookies", "dry-fruits", "nutty", "crispy", "baked", "premium-cookies", "sweet-snack", "tea-time", "wholesome" ]
+        },
+        {
+            "id" : "coo5",
+            "category": "Cookies",
+            "brand" : "Classy Cookies",
+            "flavour" : "Pista",
+            "sub_flavour" : "Pista Cookies",
+            "description" : "Baked with the delicate flavour and crunch of premium pista, Pista Cookies offer a smooth, nutty taste in every bite. Crisp, aromatic, and perfectly balanced, they’re an ideal companion for tea-time indulgence or anytime snacking.",
+            "thumbnail" : "/assets/image/product/cookies/pista.png",
+            "images": [
+                "/assets/image/product/cookies/pista.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "pista-cookies", "cookies", "pista", "nutty", "crispy", "baked", "premium-cookies", "tea-time", "sweet-snack", "everyday-indulgence" ]
+        },
+        {
+            "id" : "coo6",
+            "category": "Cookies",
+            "brand" : "Classy Cookies",
+            "flavour" : "Tutti Frutti",
+            "sub_flavour" : "Tutti Frutti Cookies",
+            "description" : "Bursting with colourful tutti frutti bits and a delightful sweetness, Tutti Frutti Cookies offer a cheerful crunch in every bite. Perfectly baked and full of flavour, they make a fun and tasty treat for tea-time, kids’ snacks, or anytime indulgence.",
+            "thumbnail" : "/assets/image/product/cookies/tutti frutti.png",
+            "images": [
+                "/assets/image/product/cookies/tutti frutti.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "tutti-frutti-cookies", "cookies", "tutti-frutti", "colorful", "sweet", "crispy", "baked", "kids-favorite", "tea-time", "fun-snack" ]
         }
     ]
 }

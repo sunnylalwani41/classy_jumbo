@@ -43,8 +43,8 @@
     for(let i = 2; i < parts.length; i++){
       let filter = parts[i].split("-");
 
-      let key = filter[0];
-      let value = filter[1];
+      let key = decodeURIComponent(filter[0]);
+      let value = decodeURIComponent(filter[1]);
 
       if(key && value && data)
         data = filteredData(key, value, data);
