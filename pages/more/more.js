@@ -21,10 +21,17 @@ let pageTitleArrange = (title) => {
 let moreDataArrange = (data) =>{
     let awardContainer = document.querySelector(".award-container");
     awardContainer.innerHTML = "";
+    const hash = location.hash;
+    const parts = hash.replace("#/", "").split("/");
 
     data.forEach( e => {
-        console.log(e);
-        let card = `<div class="award-card">
+        let pageLink = e.pageLink;
+
+      if(pageLink){
+        pageLink = pageLink.replace(/^.*\/json\/|\.json$/g, "");
+      }
+      
+        let card = `<div class="award-card" onclick="location.href='#/moreDetail/${pageLink ? pageLink :parts[1]}/id-${e.id}'">
             <div class="award-image">
                 <img src="${e.thumb_img}" alt="${e.title}">
             </div>
@@ -75,6 +82,24 @@ let loadTheMoreData = async () => {
     }
     else{
         loadSubmenuForMore(list);
+
+        let productDataList = [];
+
+      //data collect
+      for(let i=0; i<list.length; i++){
+        let pageLink = fetchJsonDataLinkByLink(list[i].route);
+
+        if (!pageObj[pageLink]){
+          await fetchProductData(pageLink);
+        }
+        let allProductListWithPageLink = pageObj[pageLink].list.map(item => ({
+          ...item,
+          "pageLink" : pageLink
+        }));
+        productDataList.push(...allProductListWithPageLink);
+      }
+      
+      moreDataArrange(productDataList);
     }
 }
 

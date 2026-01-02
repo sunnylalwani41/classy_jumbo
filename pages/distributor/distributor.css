@@ -144,9 +144,11 @@
 .network-track {
   display: flex;
   gap: 30px;
-  width: 200%;
-  animation: countries 30s linear infinite;
+  width: max-content;
+  animation: countries 40s linear infinite;
+  will-change: transform;
 }
+
 
 .network-ticker:hover .network-track {
   animation-play-state: paused;

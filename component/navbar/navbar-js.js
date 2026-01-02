@@ -151,45 +151,85 @@ function loadPage(page, menu) {
       document.getElementById("content").innerHTML = html;
       setActive(menu);
       
-      if (typeof initHeroSlider === "function") {
-        initHeroSlider();
-      }
-      if(typeof companyInformationForPrivacyPolicy === "function"){
-        companyInformationForPrivacyPolicy();
-      }
-      if(typeof companyInformationForContact == "function"){
-        companyInformationForContact();
-      }
-      if (typeof loadTheProductData == "function"){
-        loadTheProductData();
-      }
-      if(typeof loadTheMoreData == "function"){
-        loadTheMoreData();
-      }
-      if(typeof loadTheProductDetailData == "function"){
-        loadTheProductDetailData();
-      }
-      if(typeof moreDetailInit == "function"){
-        moreDetailInit();
-      }
-      if(typeof distributorMethod == "function"){
-        distributorMethod();
-        indiaMap();
+      // if (typeof initHeroSlider === "function") {
+      //   initHeroSlider();
+      // }
+      // if(typeof companyInformationForPrivacyPolicy === "function"){
+      //   companyInformationForPrivacyPolicy();
+      // }
+      // if(typeof companyInformationForContact == "function"){
+      //   companyInformationForContact();
+      // }
+      // if (typeof loadTheProductData == "function"){
+      //   loadTheProductData();
+      // }
+      // if(typeof loadTheMoreData == "function"){
+      //   loadTheMoreData();
+      // }
+      // if(typeof loadTheProductDetailData == "function"){
+      //   loadTheProductDetailData();
+      // }
+      // if(typeof distributorMethod == "function" && typeof indiaMap == "function"){
+      //   distributorMethod();
+      //   indiaMap();
+      // }
+      // if(typeof moreDetailInit == "function" ){
+      //   moreDetailInit();
+      // }
+
+      switch(menu) {
+        case "home":
+          initHeroSlider();
+          break;
+        
+        case "privacy":
+          companyInformationForPrivacyPolicy();
+          break;
+        
+        case "contact" :
+          companyInformationForContact();
+          break;
+        
+        case "product" :
+          loadTheProductData()
+          break;
+        
+        case "more" :
+          loadTheMoreData();
+          break;
+        
+        case "productDetail":
+          loadTheProductDetailData();
+          break;
+
+        case "distributor" : 
+          distributorMethod();
+          indiaMap();
+          break;
+
+        case "moreDetail" : 
+          moreDetailInit();
+          break;
       }
     });
 }
 
 // Hash router
 async function handleRoute() {
-  console.log("run");
+  
   const hash = location.hash || "#/home";
-console.log(hash);
+
   const parts = hash.replace("#/", "").split("/");
   let page = navigateThePage(parts);
   // const page = parts[0];        // buy / rent / home
   // const subPage = parts[1];     // apartments / villas
 
   loadPage(page, parts[0]);
+  window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+  });
 }
 
 // Hamburger
